@@ -2,7 +2,8 @@
 ---
 Quick Annotator is an open-source digital pathology annotation tool.
 
-![Project_Page_UI](https://user-images.githubusercontent.com/35504986/102565310-3522f200-40ab-11eb-906e-93d7c06eb65a.png)
+![Project_Page_UI](https://user-images.githubusercontent.com/35504986/102566371-6ac8da80-40ad-11eb-87c4-1654b88610ea.png)
+
 
 # Purpose
 ---
@@ -53,7 +54,7 @@ pip3 install -r requirements.txt
 The library versions have been pegged to the current validated ones. 
 Later versions are likely to work but may not allow for cross-site/version reproducibility
 
-We received some feedback that users could installed *torch*. Here, we provide a detailed guide to install
+We received some feedback that users had troubles installing package *Torch*. Here, we provide a detailed guide to install
 *Torch*
 ### Torch's Installation
 The general guides for installing Pytorch can be summarized as following:
@@ -66,10 +67,11 @@ The general guides for installing Pytorch can be summarized as following:
 ---
 see [UserManual](http://hawking.case.edu:3030/deeplearning/quick_annotator/blob/master/wiki.md#user-manual) for a demo
 ### Run
+Open terminal and go to QA's directory
 ```
- E:\Study\Research\QA\qqqqq\test1\quick_annotator>python QA.py
+ python QA.py
 ```
-By default, it will start up on localhost:5555
+By default, it will start up on *http://localhost:5555/* 
 
 ### Config Sections
 There are many modular functions in QA whose behaviors could be adjusted by hyper-parameters. These hyper-parameters can 
@@ -93,8 +95,8 @@ be set in the *config.ini* file
 See [wiki](http://hawking.case.edu:18080/deeplearning/quick_annotator/blob/master/wiki.md)
 # Notes
 ---
-Information from Quick Annotator users appears below:
-1. QA current does not support WSI. All the images tiles will be converted to png file when uploading to QA.
+
+1. QA currently does not support WSI. All the images tiles will be converted to png file when uploading to QA.
 
 # Citation
 ---
@@ -104,7 +106,7 @@ If you find this software useful, please drop me a line and/or consider citing i
 
 Conference Abstract available [QA_Abstract.pdf](https://github.com/choosehappy/QuickAnnotator/files/5713232/QA_Abstract.pdf)
 
-Manuscript available [here]()
+Manuscript available [here](NOt ready yet)
 
 # Frequently Asked Questions
 See [FAQ](http://hawking.case.edu:3030/deeplearning/quick_annotator/blob/master/wiki.md#frequently-asked-questions)
